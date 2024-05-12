@@ -11,20 +11,41 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: pink;
+    background: rgb(22, 22, 22);
 }
 
 .wrapper {
-    width: 450px;
-    color: #fff;
-    background: purple;
+    width: 420px;
+    color:  #fff;
+    background: rgb(66, 2, 66);
 }
 
 .wrapper h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 30px
 }
 
 .wrapper .input-details {
+    position: relative;
+    width: 100%;
     
+}
+.input-details input{
+   
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border: 2px solid rgba(225, 225, 225, .2);
+    border-radius: 40px;
+    padding:  10px;
+}
+.input-details input::placeholder {
+    color: #fff;
+}
+i{
+    position: relative;
+    left:  390px;
+    top: -34px;
+    font-size: 20px;
 }
