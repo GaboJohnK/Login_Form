@@ -15,9 +15,11 @@ body {
 }
 
 .wrapper {
-    width: 420px;
+    width: 430px;
     color:  #fff;
     background: rgb(66, 2, 66);
+    padding: 30px 40px;
+    border-radius: 20px;
 }
 
 .wrapper h1 {
@@ -30,22 +32,71 @@ body {
     width: 100%;
     
 }
-.input-details input{
-   
+.input-details input{ 
     width: 100%;
     height: 100%;
     background: transparent;
     border: none;
     border: 2px solid rgba(225, 225, 225, .2);
     border-radius: 40px;
-    padding:  10px;
+    padding: 10px 10px;
+    color: #fff;
 }
 .input-details input::placeholder {
     color: #fff;
 }
 i{
     position: relative;
-    left:  390px;
+    left:  320px;
     top: -34px;
     font-size: 20px;
+}
+#remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-left: 10px;
+}
+#remember label input{
+  margin-right: 8px;
+}
+#remember a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+}
+#remember a:hover{
+    text-decoration: underline;
+    color: rgb(47, 143, 143);
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    margin:  15px 0;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 2px rgb(48, 45, 45);
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 18px;
+    color: rgb(71, 68, 68);
+}
+.btn:hover{
+    background: grey;
+    color: black;
+}
+.registration{
+    text-align: center;
+    margin-top: 20px;
+}
+.registration p a{
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 17px;
+}
+.registration p a:hover {
+    color: aquamarine;
+    text-decoration: underline;
 }
