@@ -23,11 +23,13 @@ body {
     padding: 30px 40px;
     border-radius: 20px;
     border: 2px solid rgb(133, 129, 129);
+    backdrop-filter: blur(15px);
 }
 
 .wrapper h1 {
     text-align: center;
-    font-size: 30px
+    font-size: 30px;
+    
 }
 
 .wrapper .input-details {
@@ -102,4 +104,16 @@ i{
 .registration p a:hover {
     color: aquamarine;
     text-decoration: underline;
+}
+
+.input-details input {
+    margin-bottom: 8px;
+    
+}
+
+i.fa-envelope {
+    position: relative;
+    left: 320px;
+    top: -34px;
+    font-size: 20px;
 }
