@@ -9,4 +9,4 @@ document.getElementById('showLogin').addEventListener('click', function(e) {
     e.preventDefault();
 document.getElementById('loginForm').style.display = 'block';
 document.getElementById('registerForm').style.display = 'none';
-        });
+ });
